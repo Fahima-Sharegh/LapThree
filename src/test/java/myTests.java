@@ -2,10 +2,7 @@
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.Test;
-import org.junit.Assert;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class myTests {
 
@@ -31,14 +28,14 @@ public class myTests {
         Assert.assertEquals(4, actual);
 
     }
-    /*
+
         @Test
         public void testOfNumbersWhenNegativeValue() {
             int actual = 5*2;
             Assert.assertEquals(-12, actual);
 
         }
-    */
+
     @Test
     public void testToDivideToNumbers() {
         double actual = 6/2;
