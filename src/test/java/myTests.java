@@ -1,12 +1,8 @@
 
 import org.junit.Assert;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.Test;
-
-
 public class myTests {
 
-@DisplayName("8 + 1 = 9")
     @Test
     public void testSumOfNumbersWhenPositiveValue() {
         int actual = 8+1;
@@ -45,7 +41,6 @@ public class myTests {
 
     }
 
-    @DisplayName(" 4* 2 = 8 ")
     @Test
     public void testOfMultiplicationWhenPositiveNumbers() {
         int expected = 4*2;
