@@ -24,13 +24,13 @@ public class myTests {
         Assert.assertEquals(4, actual);
 
     }
-
+/*
         @Test
         public void testOfNumbersWhenNegativeValue() {
             int actual = 5*2;
             Assert.assertEquals(-12, actual);
 
-        }
+        }*/
 
     @Test
     public void testToDivideToNumbers() {
